@@ -1,0 +1,35 @@
+pre
+{
+    font-size: 30px;
+    color: #808080;
+    letter-spacing: 4px;
+    word-spacing: 6px;
+    line-height: 60px;
+
+}
+ins+span
+{
+    text-decoration: overline;
+
+}
+
+.prostoe
+{
+font-weight:600;
+}
+ ins del
+{
+    text-shadow:2px 3px 5px orange;
+
+
+}
+
+ins .prostoe del
+{
+font-size: 35px;
+}
+
+.power
+{
+    color: rgba(171,27,111, 0.3);
+}
