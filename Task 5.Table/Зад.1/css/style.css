@@ -1,0 +1,14 @@
+table{
+    border: 1px solid black;
+ color: beige;
+ border-spacing: 0;
+ border-collapse: collapse;
+ 
+}
+td{
+    width: 250px;
+    height: 150px;
+    font-size: 40px;
+    border: 7px groove black;
+    background: linear-gradient(rgb(219, 31, 31), 10%, rgb(124, 25, 41));
+}

@@ -1,0 +1,31 @@
+table{
+    border: 1px solid black;
+ color: beige;
+ border-spacing: 0;
+ border-collapse: collapse;
+
+}
+td{
+    width: 250px;
+    height: 150px;
+    font-size: 40px;
+    border: 7px groove black;
+    background: linear-gradient(rgb(219, 31, 31), 10%, rgb(124, 25, 41));
+}
+td:nth-child(1)
+{
+    text-align: left;
+    vertical-align:top;
+}
+td:nth-child(2)
+{ text-align: left;
+   
+}
+
+td:nth-child(3)
+{ text-align: left;
+    vertical-align:bottom;
+}
+tr:nth-child(1) td:nth-child(3){
+	vertical-align: top
+}
