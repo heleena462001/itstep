@@ -10,6 +10,7 @@ th
     color: white;
     background-color: rgb(70, 70, 156);
     border: 2px solid white;
+border-bottom-width: 6px;
 }
 td{
     width: 120px;
