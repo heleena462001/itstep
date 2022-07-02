@@ -1,18 +1,202 @@
+
 .Mark img
 {
    text-align: right; 
    float: left;
-   
+   width: 200px;
+   height: 100px;
+   border-radius: 30px;
+
  }
  
 
  .Js img
  {
     text-align: left; 
-    float:right
+    float:right;
+    border-radius: 300px;
+
   }
 .Kod
    {
     text-align: center; 
+    border-top: 50px solid rgb(224, 102, 102);
+    border-bottom: 50px solid rgb(255, 149, 149);
+    border-left: 50px solid #BFE2FF;
+    border-right:50px solid #BFE2FF; ;
+    
     
   }
+
+  table{
+    caption-side: top;
+    border: 3px solid rgb(233, 233, 233);
+    border-spacing: 0;
+    border-collapse: collapse;
+    text-align: center;
+    margin: 20px;
+    letter-spacing:2px;
+
+    
+
+   }
+   th
+   {
+       color: white;
+       background-color: rgb(70, 70, 156);
+      
+   }
+   td{
+       width: 120px;
+       height: 30px;
+       font-size: 18px;
+       border: 2px solid rgb(190, 237, 255);
+       font-family: Georgia;
+   }
+  
+   tr:nth-child(2n+2){
+    background:rgb(153, 153, 238)
+}
+
+tr:nth-child(2n+1){
+    background:
+    rgb(218, 218, 255);
+}
+
+ .Marker {
+  list-style-image: url('../img/marker.jpg'); /* Путь к изображению маркера */
+  opacity:0.6px;
+
+
+
+ }
+ 
+ @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+ h1
+ {
+  font-size: 24px;
+  font-family:'Bebas Neue',cursive;
+  background-image:url('../img/fon.png');
+  opacity: 0.8;
+  background-size: cover  ;
+ }
+ h2
+ {
+  font-size: 18px;
+  font-family:'Bebas Neue',cursive;
+  border-style: dashed;
+  margin-left: 150px;
+  text-align: left;
+  text-decoration: underline;
+  text-decoration-color: rgb(95, 230, 83);
+ }
+
+ body
+ {
+  font-size: 14px;
+  text-justify: auto;
+ 
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  cursor: crosshair;
+  word-spacing:2px;
+  min-width: 1000px;
+  white-space: normal;
+  word-break:normal;
+  background-repeat:repeat;
+  text-overflow:clip;
+  background: linear-gradient(90deg, #69f0ae , transparent 60%);
+
+ }
+ 
+.dashed
+{
+  text-decoration-style: dashed;
+}
+ .clwhite
+ {
+  color: white;
+  
+ }
+
+ .clpurle
+ {
+  color: purple;
+ }
+
+ .clgold
+ {
+  color: gold;
+ }
+
+ .clblue
+ {
+  color: blue;
+ }
+ .clred
+{
+  color: red;
+}
+.clgreen
+{
+  color: green;
+}
+
+.Ramka
+{
+  border: 1px solid rgb(95, 218, 152);
+  padding: 10px;
+  background-color:rgb(220, 155, 201);
+}
+
+p.left {
+  float:left;
+  width:49%;
+  font-size: 12px;
+  border: rgb(221, 116, 200);
+  color: rgb(112, 66, 121);
+  opacity: 1;
+  border-style: solid;
+  font-weight: 200;
+}
+
+p.right {
+  font-weight: 200;
+  float:right;
+  opacity: 1;
+  padding:2%;
+  width:49%;
+  font-size: 12px;
+  border: rgb(82, 193, 187);
+  color: rgb(63, 95, 110);
+border-style: solid;
+  }
+.ramka2
+{ border: 1px solid rgb(0, 0, 0);
+  background-color:rgb(0, 0, 0);
+
+
+}
+span
+{
+  text-indent: 20px;
+
+
+}
+h3
+{
+  font-size: 18;
+  font-style: italic;
+  font-weight:bolder
+ 
+}
+.h3obzor
+{  font-size: 18;
+text-align: center;
+
+}
+
+.h3primer
+{  font-size: 18;
+  text-align: right;
+}
+
