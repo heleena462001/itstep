@@ -1,0 +1,118 @@
+div{
+    position: relative;
+    float: left;
+    text-align: center;
+    line-height: 100px;
+    color: rgb(18, 17, 17);
+    font-size: 60px;
+  
+
+}
+.main{
+    width: 1200px;
+    height: 1700px;
+    position: absolute;
+    top: calc(50% - 200px);
+    left: calc(50% - 200px);
+}
+
+.info
+{
+    width: 300px;
+    height: 300px;
+    background: rgb(59, 177, 76);
+}
+
+.info-right
+{    width: 190px;
+}
+
+.inform
+{
+    width: 220px;
+    height: 150px;
+    background: #c3d632;
+}
+
+
+.info-right2
+{    width: 190px;
+}
+
+.info-right3
+{    width: 180px;
+    
+}
+.catalog-menu
+{
+    width: 300px;
+
+ 
+}
+
+.nav
+{
+    width: 300px;
+    height: 200px;
+    background: #d6328f;
+}
+
+.center 
+{
+    width: 426px;
+    height: 331px;
+    background: #abe6f7;
+}
+.catalog-right
+{
+    width: 170px;
+    height: 165px;
+}
+
+.catalog-r
+{
+    width: 173px;
+    height: 165px;
+    background: #6531d6;
+}
+
+
+
+.product
+{
+    width: 200px;
+    height: 269px;
+    background: #e5ff00;
+}
+
+.footer-logo
+{ width: 300px;
+    height: 269px;
+    background: #8a8b8b;
+
+}
+.social
+{width: 420px;
+    height: 135px;
+    background: #20b44a;
+
+}
+.news
+{
+    width: 420px;
+    height: 200px;
+  
+}
+.new
+{
+    width: 210px;
+    height: 169px;
+    background: #9920b4;
+}
+
+.footer-right
+{
+    width: 180px;
+    height: 269px;
+    background: #0f4844;
+}
