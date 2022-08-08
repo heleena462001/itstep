@@ -4,13 +4,14 @@ body
 }
 
 .container{
-    width: 440px;
+    width: 100%;
     position: relative;
     margin: 0 auto;
     padding-bottom: 34px;
     padding-top: 35px;
-    display: flex;
-    flex-wrap: wrap;
+  
+   
+	text-align:center;
 }
 
 
@@ -52,12 +53,20 @@ body
 	width: 100%;
 	
 }
+.col-team_1 img {
+	width: 100%;
+	
+}
 
-.col-team img
+.team img
 {
 	width: 100%;
 }
-.col-team
+.col-team_1
+{
+    width: 50%; 
+}
+.col-team_2
 {
     width: 50%; 
 }
@@ -66,21 +75,19 @@ body
     .col-img{
 	width: 50%;
 				}
-                
+    .telefon p{
+    
+    margin: 0px;
+}            
 
-    .col-team_1
-                {
-                    width: 50%;
-                    
-
-                }
-                .col-team_2
-                {
-                    width: 50%;
-                    
-                }
-    .contact
-    { width: 50%;}
+.col-team_1
+{
+    width: 100%; 
+}
+.col-team_2
+{
+    width: 100%; 
+}
 
 
 
@@ -89,25 +96,30 @@ body
     .col-img{
 	width: 100%;
 				}
-                .col-team_1
-                {
-                    width: 25%;
-
-                }
-                .col-team_2
-                {
-                    width: 25%;
-                    
-                }
+    .telefon p{
+    
+    margin: 0px;
+}                    
 
 
-                .contact
-                { width: 50%;}
+              
 
    }
 
 
+   @media only screen and (max-width: 601px) {
+    .col-img{
+	width: 100%;
+				}
+    .telefon p{
+    
+    margin: 0px;
+}                    
 
+
+              
+
+   }
 
 
 .welt
@@ -129,8 +141,8 @@ body
     width: 100%;
     padding-bottom: 85px;
     padding-top: 86px;
-    flex-wrap: nowrap;
-  
+    flex-wrap: wrap;
+  text-align: center;
    
 }
 
@@ -177,10 +189,17 @@ span a{
 .contacts{
     background: #000;
     display: flex;
-    height: 379px;
+    flex-wrap: wrap;
     width: 100%;
-   margin: 0;
    
+   
+}
+
+.contact {
+  
+    text-align: center;
+  width:50%;
+    
 }
 
 .contact p{
@@ -220,4 +239,30 @@ br{
     text-align: center;
     margin: -30px;
 }
+
+@media only screen and (max-width: 768px) {
+    .contact {
+  
+    text-align: center;
+  width:100%;
     
+}
+    .telefon p{
+    
+    margin: 0px;
+}             
+} 
+
+@media only screen and (max-width: 440px) {
+  
+				
+    .telefon p{
+    
+    margin: 0px;
+}                    
+
+
+              
+
+   }    
+	
