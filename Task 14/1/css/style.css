@@ -10,7 +10,7 @@ body
     padding-bottom: 34px;
     padding-top: 35px;
   
-   
+
 	text-align:center;
 }
 
@@ -176,14 +176,20 @@ span{
         margin: 37px;
         
     }
-span a{
-    border: 2px solid black;
-    border-spacing:2px;
-    letter-spacing: 2px;
-    font-size: 1.2rem;
+    a:link {
+        border-width: 2px;
+          border-style: solid;
+          text-transform: uppercase;
+          font-size: 0.875rem;
+          letter-spacing: 2px;
+           border-color: #454545;
+          color: #454545;
+       padding: 10px 30px;
+       text-decoration: none;
+      }
 
 
-}
+
 
 
 .contacts{
