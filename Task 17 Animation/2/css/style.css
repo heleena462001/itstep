@@ -1,0 +1,256 @@
+.mail{
+  width: 0;
+  height: 0;
+  border-left: 100px solid rgb(84, 84, 84);
+  border-top: 100px solid transparent;
+position: absolute;
+margin-left: 112px;
+    margin-top: 51px;
+}
+
+.mail_2{
+  
+position: absolute;
+  width: 0;
+  height: 0;
+  border-bottom: 100px solid rgb(84, 84, 84);
+  border-left: 100px solid transparent;
+  margin-left: 257px;
+  margin-top: 41px;
+
+}
+ .container{
+  width: 200px;
+  
+
+ }
+
+
+.circle_2 {
+  width: 264px;
+  height: 347px;
+  background: rgb(84, 84, 84);
+  border-radius: 50%;
+  margin-top: 220px;
+  margin-left: 101px;
+  position: absolute;
+  margin-left: 103px;
+}
+
+.circle_3 {
+  width: 80px;
+  height: 144px;
+  background: rgb(84, 84, 84);
+  border-radius: 50%;
+  position: absolute;
+  margin-top: 550px;
+  margin-left: 201px;
+}
+
+.circle_4 {
+  width: 75px;
+    height: 157px;
+    background: rgb(84, 84, 84);
+    border-radius: 50%;
+    position: absolute;
+    margin-left: 203px;
+    margin-top: 579px;
+}
+
+.circle_5
+{width: 76px;
+  height: 152px;
+  background: rgb(84, 84, 84);
+  border-radius: 50%;
+  position: absolute;
+  margin-left: 235px;
+  margin-left: 252px;
+  margin-top: 665px;
+  transform: rotate(114deg);
+}
+
+
+
+.circle_6
+{
+  width: 68px;
+    height: 152px;
+    background: rgb(84, 84, 84);
+    border-radius: 50%;
+    position: absolute;
+    margin-left: 334px;
+    margin-top: 646px;
+    transform: rotate(219deg);
+}
+
+
+.circle_7
+{
+  width: 54px;
+  height: 124px;
+  background: rgb(84, 84, 84);
+  border-radius: 50%;
+  position: absolute;
+  margin-left: 343px;
+  margin-top: 589px;
+  transform: rotate(124deg);
+}
+
+.rectangle_1 {
+  width: 129px;
+  height: 4px;
+  background:  rgb(21, 20, 20);
+  position: absolute;
+  margin-left: 309px;
+  margin-top: 162px;
+  transform: rotate(167deg);
+}
+
+.rectangle_2 {
+  width: 129px;
+  height: 4px;
+  background:  rgb(21, 20, 20);
+  position: absolute;
+  margin-left: 309px;
+  margin-top: 181px;
+  transform: rotate(183deg);
+}
+
+.rectangle_3 {
+  width: 129px;
+  height: 4px;
+  background:  rgb(21, 20, 20);
+  position: absolute;
+  margin-left: 309px;
+  margin-top: 202px;
+  transform: rotate(204deg);
+}
+
+.rectangle_4{
+  width: 129px;
+    height: 4px;
+    background:  rgb(21, 20, 20);
+    position: absolute;
+    margin-left: 34px;
+    margin-top: 190px;
+    transform: rotate(-194deg);
+}
+
+.rectangle_5 {
+  width: 129px;
+  height: 4px;
+  background:  rgb(21, 20, 20);
+  position: absolute;
+  margin-left: 30px;
+  margin-top: 179px;
+  transform: rotate(-182deg);
+}
+
+.rectangle_6 {
+  width: 129px;
+  height: 4px;
+  background: rgb(21, 20, 20);
+  position: absolute;
+  margin-left: 44px;
+  margin-top: 213px;
+  transform: rotate(-216deg);
+}
+
+
+
+.circle_8{
+  width: 298px;
+  height: 194px;
+  background: rgb(84, 84, 84);
+  border-radius: 50%;
+  margin-top: 94px;
+  margin-left: 88px;
+  position: absolute;
+ 
+}
+
+
+.moon {
+  
+  transform: rotate(-95deg);
+  margin-left: 256px;
+  margin-top: 374px;
+  width: 128px;
+  height: 265px;
+  border-radius: 50%;
+  box-shadow: inset 16px 0px rgb(84, 84, 84); inset 16px 0px 1px 2px #777;
+  -moz-box-shadow: inset 16px 0px rgb(84, 84, 84); inset 16px 0px 1px 2px #777;
+  transition-property: margin-top,margin-left;
+  transition-duration: 3s;
+  position:fixed;
+ 
+}
+
+
+#cat:target .moon{
+  margin-top: 350px;
+  margin-left:260px;
+
+}
+
+
+.rectangle_1
+{
+  transition-property: transform;
+  transition-duration: 3s;
+  position:fixed;
+}
+
+
+#cats:target .rectangle_1{
+ transform:rotate(200deg) ;
+
+
+}
+
+
+div:hover {
+  animation: move 1s infinite linear;
+}
+
+@keyframes move {
+  0% {
+    transform: rotate(0deg);
+  
+  }
+  50% {
+    
+    border-radius: 50%;
+  }
+  100% {
+    
+    
+  }
+}
+
+ span{
+ 
+  text-align: center;
+  color: rgb(0, 0, 0);
+ }
+span:hover {
+  animation: moves 1s infinite linear;
+}
+
+
+@keyframes moves {
+  0% {
+    background-color: blue;
+    transform: rotate(0deg);
+  
+  }
+  50% {
+    
+    border-radius: 50%;
+  }
+  100% {
+    
+    background-color: brown;
+  }
+}
+
