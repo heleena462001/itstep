@@ -5,92 +5,89 @@ body {
 
 header {
   padding: 25px 20px 2px 10px;
+  box-sizing: border-box;
   margin: 0 auto;
   justify-content: space-between;
-  width: 100%;
   height: 1038px;
   background-color: #FFFFFF;
 }
-
-.top__menu {
+header .top__menu {
   padding-left: 70px;
   padding-top: 47px;
   display: flex;
   justify-content: space-between;
 }
-.top__menu .container {
+header .top__menu .container {
   display: flex;
   justify-content: space-between;
 }
-
-.main-menu {
+header .main-menu {
   display: flex;
   padding-left: 202px;
 }
-.main-menu .langs {
+header .main-menu .langs {
   padding-left: 202px;
 }
-.main-menu .langs .lang {
+header .main-menu .langs .lang {
   padding-left: 1px;
   height: 27px;
   border-left: 1px solid #000000;
 }
-.main-menu .langs ul h4 {
+header .main-menu .langs ul h4 {
   font-size: 20px;
   display: flex;
   margin-top: -8px;
 }
-.main-menu .langs li {
+header .main-menu .langs li {
   margin-right: 50px;
 }
-.main-menu .langs a {
+header .main-menu .langs a {
   color: #000000;
   text-transform: uppercase;
   text-decoration: underline;
 }
-.main-menu .button {
+header .main-menu .button {
   background-color: #F6523C;
   color: #fff;
   text-decoration: none;
-  padding: 20px 22px;
+  padding: 20px 40px;
   font-weight: 700;
   margin-left: 137px;
   transition: background-color 0.2s linear;
 }
-.main-menu .button:hover {
+header .main-menu .button:hover {
   background-color: #FFFFFF;
   border: 2px solid #000000;
   color: #000000;
 }
-.main-menu .menu {
+header .main-menu .menu {
   display: flex;
   margin-right: 55px;
   margin-top: -25px;
 }
-.main-menu ul {
+header .main-menu ul {
   display: flex;
   position: relative;
   margin: 0 auto;
   list-style: none;
   margin-right: -12px;
 }
-.main-menu ul h4 {
+header .main-menu ul h4 {
   font-size: 20px;
   display: flex;
 }
-.main-menu ul li {
+header .main-menu ul li {
   margin: 10px;
 }
-.main-menu ul a {
+header .main-menu ul a {
   text-decoration: none;
   justify-content: space-between;
   color: #000000;
 }
-
-.screen-row {
+header .screen-row {
   margin-top: 260px;
 }
-.screen-row h1 {
+header .screen-row h1 {
   display: flex;
   flex-direction: row;
   align-items: flex-start;
@@ -101,8 +98,7 @@ header {
   top: 143px;
   font-size: 80px;
 }
-
-.screen-request-info p {
+header .screen-request-info p {
   margin-left: 70px;
   padding-top: 40px;
   font-family: "Mulish";
@@ -111,65 +107,65 @@ header {
   font-size: 20px;
   line-height: 160%;
 }
-
-.web .container .row {
+header .web .container .row {
   margin: 90px 43px 143px 33px;
 }
-.web .container .row .screen-block {
+header .web .container .row .screen-block {
   display: flex;
   flex-direction: row;
   align-items: flex-start;
   justify-content: space-between;
   margin-right: 1093px;
 }
-.web .container .row .screen-title ul {
+header .web .container .row .screen-title ul {
   list-style: none;
 }
-.web .container .row .screen-title ul li {
+header .web .container .row .screen-title ul li {
   line-height: 33px;
 }
-.web .container .row .screen-title ul li h3 {
+header .web .container .row .screen-title ul li h3 {
   font-size: 20px;
 }
-.web .container .row .screen-title ul li a {
+header .web .container .row .screen-title ul li a {
   text-decoration: none;
   text-transform: uppercase;
 }
-.web .screen-request .line {
+header .web .screen-request .line {
   border-left: 1.5px solid #000000;
   padding-left: 42px;
 }
-.web h3 {
+header .web h3 {
   text-transform: uppercase;
 }
-
-.ras {
+header .ras {
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
   color: #F6523C;
 }
-
-.soft {
+header .soft {
   color: #000000;
 }
-
-.graphic .container .img-graphic {
+header .graphic .container .img-graphic {
   margin-top: -677px;
-  margin-left: 870px;
+  margin-left: 981px;
 }
-
-.web .container {
+header .web .container {
   width: 100%;
 }
 
-section {
-  background-color: rgb(0, 0, 0);
+header {
+  box-sizing: border-box;
+}
+
+.products {
+  background-color: #000000;
   position: relative;
   width: 100%;
   height: 940px;
   top: -70px;
   color: #FFFFFF;
 }
-section .text__top h3 {
+
+.text__top h3 {
   padding-left: 70px;
   padding-top: 220px;
   font-family: "Mulish";
@@ -178,7 +174,8 @@ section .text__top h3 {
   font-size: 40px;
   line-height: 160%;
 }
-section .products__items {
+
+.products__items {
   display: flex;
   flex-direction: row;
   align-items: flex-start;
@@ -187,14 +184,15 @@ section .products__items {
   margin-top: 158px;
   padding-left: 70px;
 }
-section .products__items__item {
+.products__items__item {
   margin-right: 22px;
 }
-section .products__title a {
+
+.products__title a {
   text-decoration: none;
   color: #FFFFFF;
 }
-section .products__title a h4 {
+.products__title a h4 {
   font-family: "Mulish";
   font-style: normal;
   font-weight: 500;
@@ -202,10 +200,608 @@ section .products__title a h4 {
   line-height: 140%;
   text-transform: uppercase;
 }
-section .products__text {
+
+.products__text {
   font-family: "Mulish";
   font-style: normal;
   font-weight: 500;
   font-size: 20px;
   line-height: 150%;
+}
+
+section .work {
+  box-sizing: border-box;
+  width: 100%;
+  padding: 25px 20px 2px 10px;
+}
+
+.work {
+  height: 795px;
+  background-color: #FFFFFF;
+}
+.work .left__title h2 {
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 130%;
+  letter-spacing: 0.01em;
+  text-transform: uppercase;
+  color: #000000;
+  margin-left: 0px;
+}
+.work .left__title h2 span {
+  color: #F6523C;
+}
+.work .left__text h3 {
+  margin-left: 0px;
+  margin-top: 0px;
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 150%;
+  letter-spacing: 0.01em;
+}
+.work .left__btn {
+  box-sizing: border-box;
+  padding-top: 30px;
+}
+.work .left__btn .button {
+  background-color: #FFFFFF;
+  color: #000000;
+  text-decoration: none;
+  padding: 23px 56px;
+  font-weight: 700;
+  margin-left: -1px;
+  transition: background-color 0.2s linear;
+  border: 1px solid #000000;
+}
+.work .left__btn .button:hover {
+  background-color: #F6523C;
+  color: #FFFFFF;
+  border: 1px solid #F6523C;
+}
+.work .left__btn img {
+  margin-top: -16px;
+  margin-left: 187px;
+}
+.work .row {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  margin-right: 190px;
+  margin-top: 158px;
+  padding-left: 70px;
+  padding-top: 10px;
+}
+.work .left {
+  margin-right: 130px;
+  margin-top: 120px;
+}
+.work .right {
+  margin-top: 0px;
+  box-sizing: border-box;
+  width: 91%;
+}
+
+.producds__items {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  margin-right: 190px;
+  margin-top: 158px;
+  padding-left: 70px;
+}
+.producds__items__item {
+  margin-right: 22px;
+}
+.producds__items__item__image img {
+  margin-right: 15px;
+}
+
+.producds__title a {
+  text-decoration: none;
+  color: #000000;
+}
+.producds__title a h4 {
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 150%;
+  letter-spacing: 0.01em;
+  text-transform: uppercase;
+}
+
+.producds__text {
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 150%;
+  letter-spacing: 0.01em;
+}
+
+.technologies {
+  background-color: #000000;
+  position: relative;
+  width: 100%;
+  height: 848px;
+  top: -70px;
+  color: #FFFFFF;
+}
+.technologies .left {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 30px;
+  position: absolute;
+  width: 395px;
+  height: 150px;
+  left: 70px;
+  top: 160px;
+}
+.technologies .left__title {
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 31px;
+  line-height: 130%;
+  letter-spacing: 0.01em;
+  text-transform: uppercase;
+}
+.technologies .left__title p h2 {
+  color: #FFFFFF;
+}
+.technologies .left__text {
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 140%;
+  letter-spacing: 0.01em;
+  margin-top: -60px;
+}
+.technologies .left__text p {
+  color: #FFFFFF;
+}
+.technologies .right__block {
+  margin-top: 500px;
+}
+.technologies .right__block__one {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 35px 0px;
+  gap: 60px;
+  position: absolute;
+  width: 1068px;
+  height: 132px;
+  left: 782px;
+  top: 160px;
+  border-width: 1px 0px;
+  border-style: solid;
+  border-color: #FFFFFF;
+}
+.technologies .right__block__two {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 35px 0px;
+  gap: 60px;
+  position: absolute;
+  width: 1068px;
+  height: 132px;
+  left: 782px;
+  top: 292px;
+  border-bottom: 1px solid #FFFFFF;
+}
+.technologies .right__block__three {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 35px 0px;
+  gap: 60px;
+  position: absolute;
+  width: 1068px;
+  height: 132px;
+  left: 782px;
+  top: 424px;
+  border-bottom: 1px solid #FFFFFF;
+}
+.technologies .right__block__foor {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 35px 0px;
+  gap: 60px;
+  position: absolute;
+  width: 1068px;
+  height: 132px;
+  left: 782px;
+  top: 556px;
+  border-bottom: 1px solid #FFFFFF;
+}
+.technologies .right__block__figures h2 {
+  width: 59px;
+  height: 62px;
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 48px;
+  line-height: 130%;
+  letter-spacing: 0.01em;
+  text-transform: uppercase;
+  color: #F6523C;
+}
+.technologies .right__block__text p {
+  width: 949px;
+  height: 56px;
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 140%;
+  letter-spacing: 0.01em;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+
+.blog {
+  background-color: #DFDFDF;
+  position: relative;
+  width: 100%;
+  height: 866px;
+  top: -70px;
+  color: #000000;
+}
+.blog .left {
+  margin-bottom: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 30px;
+  position: absolute;
+  width: 353px;
+  height: 246px;
+  left: 70px;
+  top: 120px;
+}
+.blog .left__title h2 {
+  width: 113px;
+  height: 52px;
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 130%;
+  letter-spacing: 0.01em;
+  text-transform: uppercase;
+  color: #000000;
+}
+.blog .left__text h3 {
+  width: 353px;
+  height: 68px;
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 140%;
+  letter-spacing: 0.01em;
+  margin-top: -30px;
+}
+.blog .left__btn {
+  box-sizing: border-box;
+  padding-top: 30px;
+}
+.blog .left__btn .button {
+  background-color: #DFDFDF;
+  color: #000000;
+  text-decoration: none;
+  padding: 23px 56px;
+  font-weight: 700;
+  margin-left: -1px;
+  transition: background-color 0.2s linear;
+  border: 1px solid #000000;
+}
+.blog .left__btn .button:hover {
+  background-color: #F6523C;
+  color: #FFFFFF;
+  border: 1px solid #F6523C;
+}
+.blog .left__btn img {
+  margin-top: -16px;
+  margin-left: 187px;
+}
+.blog .right {
+  margin-left: 535px;
+}
+.blog .right .blog__items {
+  display: flex;
+  padding-bottom: 50px;
+  margin-left: -150px;
+}
+.blog .right .blog__items__item {
+  display: flex;
+  flex-direction: column;
+  margin-right: 20px;
+  width: calc((100% - 22px) / 3);
+  background: no-repeat 39px 39px, #FFFFFF;
+  margin-top: 160px;
+  width: 430px;
+  height: 546px;
+  text-align: left;
+  justify-content: center;
+  padding: 10px;
+}
+.blog .right .blog__items:last-child {
+  margin-right: 0;
+}
+.blog .right .blog__items__item__image img {
+  margin-right: 15px;
+}
+.blog .right .blog__title {
+  margin-top: 10px;
+}
+.blog .right .blog__title a {
+  text-decoration: none;
+  color: #000000;
+}
+.blog .right .blog__title a h4 {
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 150%;
+  letter-spacing: 0.01em;
+  text-transform: uppercase;
+}
+.blog .right .blog__text {
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0.01em;
+}
+.blog .right .blog__items__item__image1 {
+  position: absolute;
+  width: 430px;
+  height: 415px;
+  text-align: center;
+}
+.blog .right .blog__items__item__image2 {
+  position: absolute;
+  width: 430px;
+  height: 415px;
+  text-align: center;
+}
+.blog .right .blog__items__item__image3 {
+  position: absolute;
+  width: 430px;
+  height: 415px;
+  text-align: center;
+}
+
+.blog .left .button img {
+  margin-top: -16px;
+  margin-left: 187px;
+}
+.blog .row {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  margin-right: 190px;
+  padding-left: 70px;
+}
+
+.blog__blog {
+  margin-top: 158px;
+  margin-left: 30px;
+}
+
+.contact {
+  height: 980px;
+  position: relative;
+  width: 100%;
+}
+
+footer {
+  height: 655px;
+  position: relative;
+  width: 100%;
+  background-color: #000000;
+  top: -70px;
+  color: #FFFFFF;
+}
+footer .logo img {
+  margin-top: 90px;
+  margin-left: 70px;
+}
+footer .company {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 44px;
+  position: absolute;
+  left: 20.21%;
+  right: 71.09%;
+  top: 10.69%;
+  bottom: 40.46%;
+}
+footer .market {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 44px;
+  position: absolute;
+  left: 35.26%;
+  right: 50.68%;
+  top: 10.69%;
+  bottom: 40.46%;
+}
+footer .market .network {
+  padding-top: 13px;
+}
+footer .connection {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 44px;
+  position: absolute;
+  left: 72.81%;
+  right: 9.27%;
+  top: 10.69%;
+  bottom: 55.27%;
+}
+footer .bottom h2 {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  left: 36.09%;
+  right: 36.09%;
+  top: 88.08%;
+  bottom: 6.11%;
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 25px;
+  color: #FFFFFF;
+  text-transform: uppercase;
+}
+footer .bottom__line {
+  position: absolute;
+  left: 0%;
+  right: 0%;
+  top: 83.97%;
+  bottom: 16.03%;
+  border: 1px solid #FFFFFF;
+}
+footer .company__title {
+  margin-top: 10px;
+}
+footer .company__title h2 {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 33px;
+  text-transform: uppercase;
+}
+footer .company__text {
+  margin-left: -41px;
+  margin-top: -24px;
+}
+footer .company__text ul {
+  margin: 0 auto;
+  list-style: none;
+  margin-right: -12px;
+}
+footer .company__text ul h3 {
+  text-transform: uppercase;
+}
+footer .company__text ul h3 a {
+  color: #FFFFFF;
+  text-decoration: none;
+}
+
+.market__title {
+  margin-top: 10px;
+}
+.market__title h2 {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 33px;
+  text-transform: uppercase;
+}
+.market__text {
+  margin-left: -41px;
+  margin-top: -24px;
+}
+.market__text ul {
+  margin: 0 auto;
+  list-style: none;
+  margin-right: -12px;
+}
+.market__text ul h3 {
+  text-transform: uppercase;
+}
+.market__text ul h3 a {
+  color: #FFFFFF;
+  text-decoration: none;
+}
+
+.connection .title h2 {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 33px;
+  text-transform: uppercase;
+  margin-left: -44px;
+}
+.connection .tel .number {
+  margin-top: -42px;
+}
+.connection .tel .number h3 {
+  margin-top: 10px;
+}
+.connection .tel .number h3 a {
+  margin-top: -29px;
+  color: #FFFFFF;
+  text-decoration: none;
+}
+.connection .tel img {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0px;
+  gap: 30px;
+  margin-left: -44px;
+}
+.connection .adress .place {
+  margin-top: -55px;
+}
+.connection .adress img {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0px;
+  gap: 30px;
+  margin-left: -44px;
+}
+.connection .email-s .email-p h3 {
+  margin-top: -29px;
+}
+.connection .email-s .email-p h3 a {
+  color: #FFFFFF;
+  text-decoration: none;
+}
+.connection .email-s img {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0px;
+  gap: 30px;
+  margin-left: -44px;
+}
+.connection .img img {
+  margin-top: -17px;
+  margin-left: -44px;
 }/*# sourceMappingURL=style.css.map */

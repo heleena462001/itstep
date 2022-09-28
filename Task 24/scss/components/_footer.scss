@@ -1,0 +1,304 @@
+footer{
+    height: 655px;
+    position: relative;
+        width: 100%;
+   background-color: $black;
+top: -70px;
+color: $white;
+
+.logo{
+    img{
+        margin-top: 90px;
+        margin-left: 70px;
+    }
+}
+
+.company {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 0px;
+        gap: 44px;
+
+        position: absolute;
+        left: 20.21%;
+        right: 71.09%;
+        top: 10.69%;
+        bottom: 40.46%;
+    }
+
+    .market
+    {
+        display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            padding: 0px;
+            gap: 44px;
+        
+            position: absolute;
+            left: 35.26%;
+            right: 50.68%;
+            top: 10.69%;
+            bottom: 40.46%;
+
+            .network
+            {
+                padding-top: 13px;
+            }
+    }
+
+    .connection{
+        display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            padding: 0px;
+            gap: 44px;
+        
+            position: absolute;
+            left: 72.81%;
+            right: 9.27%;
+            top: 10.69%;
+            bottom: 55.27%;
+
+
+        
+    }
+
+    .bottom
+    {  h2{
+        position: absolute;
+        display: flex;
+        justify-content: center;
+            left: 36.09%;
+            right: 36.09%;
+            top: 88.08%;
+            bottom: 6.11%;
+        
+            font-family: 'Open Sans';
+            font-style: normal;
+            font-weight: 300;
+            font-size: 16px;
+            line-height: 25px;
+        color: $white;
+            text-transform: uppercase;}
+
+            &__line
+            {
+                position: absolute;
+                    left: 0%;
+                    right: 0%;
+                    top: 83.97%;
+                    bottom: 16.03%;
+                
+                    border: 1px solid #FFFFFF;
+
+                   
+            }
+    }
+
+
+    .company{
+
+        &__title
+        {
+            margin-top: 10px;
+h2 {
+        font-family: 'Open Sans';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 24px;
+            line-height: 33px;
+    
+        
+            text-transform: uppercase;
+        
+    
+    }
+        }
+
+        &__text{
+        margin-left: -41px;
+            margin-top: -24px;
+                ul {
+                       
+                        margin: 0 auto;
+                        list-style: none;
+                        margin-right: -12px;
+                         
+                        li{
+                            
+                        }
+                
+                        h3 {
+                           
+                            text-transform: uppercase;
+                           
+
+                            a{
+color: $white;
+ text-decoration: none;
+                            }
+
+                        }
+                    }
+
+
+                
+        }
+
+
+
+
+    
+    }
+
+}
+
+  .market {
+      &__title {
+
+          margin-top: 10px;
+
+          h2 {
+              font-family: 'Open Sans';
+              font-style: normal;
+              font-weight: 400;
+              font-size: 24px;
+              line-height: 33px;
+
+
+              text-transform: uppercase;
+
+
+          }
+
+      }
+
+      &__text {
+          margin-left: -41px;
+          margin-top: -24px;
+
+          ul {
+
+              margin: 0 auto;
+              list-style: none;
+              margin-right: -12px;
+
+              li {}
+
+              h3 {
+
+                  text-transform: uppercase;
+
+
+                  a {
+                      color: $white;
+                      text-decoration: none;
+                  }
+
+              }
+          }
+      }
+  }
+
+  .connection{
+
+   .title{
+
+    h2{
+        font-family: 'Open Sans';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 24px;
+            line-height: 33px;
+
+        
+            text-transform: uppercase;
+            margin-left: -44px;
+    }
+   }
+
+   .tel{
+    .number{
+margin-top: -42px;
+        h3{
+           margin-top: 10px;  
+        a {
+        
+        
+                margin-top: -29px;
+                color: $white;
+                text-decoration: none;
+            }
+        }
+         
+    }
+
+
+      img {
+          display: flex;
+          flex-direction: row;
+          align-items: center;
+          padding: 0px;
+          gap: 30px;
+            margin-left: -44px;
+      }
+
+  
+ 
+   }
+
+   .adress{
+
+.place{
+   margin-top: -55px; 
+}
+
+     img {
+         display: flex;
+         flex-direction: row;
+         align-items: center;
+         padding: 0px;
+         gap: 30px;
+         margin-left: -44px;
+     
+
+ }
+
+   }
+.email-s{
+
+    .email-p
+    {
+      h3{ margin-top: -29px;
+        a{
+
+       
+       
+        color: $white;
+        text-decoration: none; }
+      }
+    }
+    
+           
+            img{
+              display: flex;
+               flex-direction: row;
+               align-items: center;
+               padding: 0px;
+               gap: 30px;  
+                margin-left: -44px;
+            }
+              
+           
+}
+
+.img{
+
+    img{
+      margin-top: -17px;  
+      margin-left:-44px ;
+    }
+    
+}
+  }

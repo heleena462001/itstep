@@ -1,0 +1,165 @@
+section
+{
+    .work{
+box-sizing: border-box;
+    width: 100%;
+    padding: 25px 20px 2px 10px;
+    }
+}
+.work{
+    height: 795px;
+    background-color: $white;
+   
+
+    .left{
+        &__title{
+  h2{
+font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 130%;
+    letter-spacing: 0.01em;
+    text-transform: uppercase;
+    color: $black;
+    margin-left: 0px;
+    
+    span{
+color: $red;
+    }
+  }
+        }
+
+        &__text{
+  h3 {
+
+    margin-left: 0px;
+    margin-top: 0px;
+    font-family: 'Mulish';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 150%;
+    
+        letter-spacing: 0.01em;
+  }
+        }
+
+        &__btn{
+            box-sizing: border-box;
+  padding-top: 30px;
+        
+.button {
+        background-color: $white;
+        color:$black;
+        text-decoration: none;
+        padding: 23px 56px;
+        font-weight: 700;
+        margin-left: -1px;
+        transition: background-color 0.2s linear;
+        border: 1px solid $black;
+
+        &:hover {
+            background-color: $red;
+            color: $white;
+        border: 1px solid $red;
+        }
+    }
+
+    img{
+    margin-top: -16px;
+        margin-left: 187px;
+    }
+        }
+    }
+
+.row
+{
+display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+    margin-right: 190px;
+    margin-top: 158px;
+    padding-left: 70px;
+    padding-top: 10px;
+
+
+
+}
+
+.left{
+    margin-right: 130px;
+    margin-top: 120px;
+}
+.right
+{margin-top: 0px;
+    box-sizing: border-box;
+        width: 91%;
+       
+}
+
+}
+
+
+
+
+
+
+
+.producds {
+
+    &__items {
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        justify-content: space-between;
+        margin-right: 190px;
+        margin-top: 158px;
+        padding-left: 70px;
+
+        &__item {
+            margin-right: 22px;
+
+
+        }
+    }
+
+    &__items__item__image{
+         img{
+            margin-right: 15px;
+         }
+    }
+
+}
+
+.producds__title {
+    a {
+        text-decoration: none;
+        color: $black;
+
+        h4 {
+    font-family: 'Mulish';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 24px;
+        line-height: 150%;
+        letter-spacing: 0.01em;
+            text-transform: uppercase;
+
+        }
+    }
+}
+
+.producds__text {
+    font-family: 'Mulish';
+        font-style: normal;
+        font-weight: 300;
+        font-size: 20px;
+        line-height: 150%;
+    
+        letter-spacing: 0.01em;
+}
+
+
+
