@@ -188,3 +188,13 @@ display: flex;
 
 }
 }
+
+.technologies {
+    .container {
+
+        @media (max-width: 1920px) {
+            width: 1920px;
+        }
+
+    }
+}

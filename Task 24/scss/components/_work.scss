@@ -163,3 +163,13 @@ display: flex;
 
 
 
+.work{
+    .container {
+    
+            @media (max-width: 1920px) {
+                width: 1920px;
+            }
+    
+        
+}
+}

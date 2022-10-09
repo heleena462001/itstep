@@ -229,3 +229,14 @@
                 margin-left: 30px;
     }
 }
+
+
+.blog{
+    .container {
+    
+            @media (max-width: 1920px) {
+                width: 1920px;
+            }
+    
+    }
+}

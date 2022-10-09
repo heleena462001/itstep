@@ -5,12 +5,18 @@ header {
         justify-content: space-between;
     height: 1038px;
     background-color: $white;
+ 
 
-
+@media (max-width: 1920px) {
+ width: 100%;
+    }
 
 
 .top__menu
 {
+    @media (max-width: 1920px) {
+            width: 100%;
+        }
     padding-left: 70px;
     padding-top: 47px;
         display: flex;
@@ -19,7 +25,10 @@ header {
     .container {
         display: flex;
         justify-content: space-between;
-        
+     
+        @media (max-width: 1920px) {
+                width: 1920px;
+            }
     
     }
    
@@ -28,6 +37,9 @@ header {
 
 .main-menu
 {
+    @media (max-width: 1920px) {
+            width: 100%;
+        }
  display: flex;
 
 padding-left: 202px;
@@ -35,6 +47,11 @@ padding-left: 202px;
 
 .langs
 {
+    @media (max-width: 1280px) {
+           margin-left: 10px;;
+        }
+
+
     padding-left: 202px;
     .lang{
    
@@ -50,6 +67,10 @@ padding-left: 202px;
         }
   }
     li{margin-right: 50px;
+        @media (max-width: 1280px) {
+
+        margin-right: -98px;
+        }
     
     }
         a{
@@ -58,13 +79,22 @@ padding-left: 202px;
             
              text-decoration: underline;
                 
+
             .line {
-                    
+                @media (max-width: 1280px) {
+                
+                        margin-left: -222px;
+                    }
                     
         }
     }
 }
 .button {
+
+    @media (max-width: 1280px) {
+            margin-left: -246px;
+            
+        }
         background-color: $red;
         color: #fff;
         text-decoration: none;
@@ -82,6 +112,9 @@ padding-left: 202px;
 
 
 .menu{
+    @media (max-width: 1920px) {
+            width: 100%;
+        }
     display: flex;
     margin-right: 55px;
     margin-top: -25px;
@@ -113,8 +146,12 @@ margin: 10px;
 }
 
 
-.screen-row
-{ margin-top: 260px;
+.screen-row {
+@media (max-width: 1920px) {
+    width: 100%;
+
+}
+ margin-top: 260px;
  
    h1
    {
@@ -132,6 +169,11 @@ margin: 10px;
 }
 
 .screen-request-info{
+@media (max-width: 1280px) {
+        margin-left: 10px;;
+    }
+
+
     p{
 
 margin-left: 70px;
@@ -222,11 +264,24 @@ line-height: 160%;}
                 margin-top: -677px;
                     margin-left: 981px;
 
+@media (min-width: 1920px) {
+        display: block;
+    }
+
+        @media (max-width: 1280px) {
+            display: none;
+        }
+
+
+
         }
     }
 }
 
 .web{
+    @media (max-width: 1920px) {
+            width: 100%;
+        }
     .container{
         width: 100%;
     }
