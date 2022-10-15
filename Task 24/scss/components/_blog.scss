@@ -6,8 +6,30 @@
         height: 866px;
         top: -70px;
         color: $black;
+@media (max-width: 1280px) {
+        width: 100%;
 
 
+    }
+
+
+          @media (max-width: 1920px) {
+              width: 100%;
+    
+    
+          }
+
+                        @media (max-width: 768px) {
+                            width: 100%;
+            
+        
+                        }
+
+                                                  @media (max-width: 440px) {
+                                                      width: 100%;
+                        
+                        
+                                                  }
 
 
         .left{
